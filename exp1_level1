@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    int N,course;
+    printf("Enter number of language:  ");
+    scanf("%d",&N);
+    course=N*2;
+    printf("The number of courses is: %d ",course);
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
