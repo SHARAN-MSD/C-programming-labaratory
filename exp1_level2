@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main()
+{
+    int X;
+    float A,B,c_cost,n_cost,profit;
+    int f_cost=100;
+    printf("Cost of each copy: ");
+    scanf("%f",&A);
+    printf("Number of copies sold: ");
+    scanf("%d",&X);
+    printf("Cost spend by agency on each newspaper: ");
+    scanf("%f",&B);
+    c_cost=X*A;
+    n_cost=X*B;
+    profit=c_cost-n_cost-f_cost;
+    printf("The profit obtained is:%.2f",profit);
+    return 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
