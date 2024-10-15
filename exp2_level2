@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+    char ch;
+    scanf("%c",&ch);
+    if((ch>='A'&&ch<='Z')||(ch>='a'&&ch<='z'))
+    {
+        printf("Entered character is Alphabet");
+    }
+    else if((ch>='0'&&ch<='9'))
+    {
+        printf("Entered character is Number");
+    }
+    else
+    {
+        printf("Entered character is Special Character");
+    }
+    return 0;
+}
+    
+    
+
+
+
